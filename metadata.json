@@ -1,0 +1,6 @@
+{
+  "name": "SnapFrame - Khung Chụp & Watermark Mobile",
+  "description": "Ứng dụng mobile chụp ảnh lồng khung template, chèn logo, đóng dấu ngày giờ và địa điểm chuyên nghiệp, nhẹ nhàng, tối ưu.",
+  "requestFramePermissions": ["camera", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
