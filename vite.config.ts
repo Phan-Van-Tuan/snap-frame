@@ -7,6 +7,8 @@ export default defineConfig(() => {
   return {
     // HTTP on localhost is a secure origin, so the camera works at http://localhost:3000.
     // The previous HTTPS-only server rejected plain http:// and the browser showed a failed connection.
+    // Relative asset paths so the built site works on GitHub Pages.
+    base: './',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
